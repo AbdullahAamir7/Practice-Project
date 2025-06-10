@@ -1,0 +1,74 @@
+.footer{
+    background:linear-gradient(to bottom right,rgb(54, 52, 52),rgb(39, 37, 37));
+    width: 100%;
+    color: aqua;
+}
+.flogo{
+  cursor: pointer;
+  width: 270px;
+  font-weight: 400;
+  font-style: normal;
+}
+.floclogo{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  padding:7px 6px;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.finfo{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa-brands{
+  font-size: 30px;
+   margin: 20px;
+   color: white;
+ }
+ .finfo{
+   position: relative;
+   
+ }
+ .fa-solid{
+   font-size: 20px;
+   border: 2px solid white;
+   padding: 8px;
+   border-radius: 50%;
+   
+ }
+.exp{
+  margin-left: 200px;
+    text-align: justify;
+  }
+  .explink{
+    font-size: 20px;
+  }
+  .service{
+    margin-left: 200px;
+    text-align: justify;
+  }
+  .datebrth{
+    width: 200px;
+  }
+  
+  .send{
+    width: 100px;
+    font-family: EngraversGothic BT;
+  }
+  .send:hover{
+     transform: scale(1.1);
+  }
+  
+  .mail{
+    padding: 8px;
+    width:300px;
+    max-height: 40px;
+    color: black;
+  }
+  .cpyright{
+    background-color: black;
+    height: 50px;
+  }

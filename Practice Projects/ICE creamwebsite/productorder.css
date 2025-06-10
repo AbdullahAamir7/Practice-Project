@@ -1,0 +1,75 @@
+
+.order_page_main{
+  background-color: #0f0f2f;
+  height: 1000px;
+}
+.navbar{
+  background-color: rgb(233, 232, 210);
+
+}
+.nav-link {
+  position: relative;
+  color: #000000;
+  font-size: 35px;
+  margin-left: 50px;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transition: color 0.5s; /* Smooth color transition */
+  text-decoration: none; /* Remove default underline */
+}
+.nav-link:hover{
+  transform: scale(1.09);
+  text-decoration:underline;
+  color: #e5e557;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0; /* Start from the left */
+  bottom: 15px;
+  width: 100%; /* Full width */
+  height: 2px; /* Thickness of the underline */
+  background-color: #000; /* Color of the underline */
+  transform: scaleX(0); /* Initially hide it */
+  transition: transform 0.5s ease-in; /* Smooth transition */
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1); /* Show the underline on hover */
+}
+.logo{
+     
+  margin-bottom: 40px;
+  
+}
+.navright{
+  margin-left: auto;
+  
+}
+.navRbtn {
+
+  padding: 0px,5px;
+}
+.chocolate_order_page{
+  margin-top: 200px;
+}
+.product_option{
+  width: 140px;
+  margin: 70px 50px;
+  
+  outline: 0.5px solid #e5e557;
+  text-align: center;
+}
+.option_product{
+  width: 100px;
+  margin: 40px 0px;
+  padding:10px;
+  border: 1px solid rgb(235, 226, 226);
+  border-radius: 20px;
+  transition: 0.6s ease-in-out;
+}
+.option_product:hover{
+    transform: scale(1.05);
+}

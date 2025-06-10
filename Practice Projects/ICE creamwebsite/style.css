@@ -1,0 +1,133 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  .navbar{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .navbar .navlogo{
+    width: 50px;
+  }
+  .nav-link {
+    position: relative;
+    color: #f0dbdb;
+    font-size: 35px;
+    margin-left: 50px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.5s; /* Smooth color transition */
+    text-decoration: none; /* Remove default underline */
+  }
+  .nav-link:hover{
+    transform: scale(1.09);
+    text-decoration:underline;
+    color: #e5e557;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0; /* Start from the left */
+    bottom: 15px;
+    width: 100%; /* Full width */
+    height: 2px; /* Thickness of the underline */
+    background-color: #ffffff; /* Color of the underline */
+    transform: scaleX(0); /* Initially hide it */
+    transition: transform 0.3s ease-in; /* Smooth transition */
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1); /* Show the underline on hover */
+  }
+  
+  
+  .logo{
+     
+    margin-bottom: 40px;
+    
+  }
+  .navright{
+    margin-left: auto;
+    
+  }
+  .navRbtn {
+  
+    padding: 0px,5px;
+  }
+  .title{
+    background-image: url("Ice_cream_\ dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 883px;
+    
+  }
+  .pizza{
+    margin-top:220px;
+    margin-left:500px;
+    color:white;
+  }
+  #orderbtn{
+    margin-top:20px;
+    margin-left:530px;
+    padding:12px;
+    border-radius: 10px;
+    background-color: #e1b823;
+    border:none;
+    box-shadow: 2px,2px,2px #ccbdbd;
+  }
+  #orderbtn:hover{
+     background-color: #ffc800;
+    transform: scale(1.1);
+  }
+  #alert{
+  
+     box-sizing: border-box;
+    font-size: 50px;
+    position: relative;
+    top: 25px;
+    animation-name: openanm;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  #alertdiv{
+    margin-top: 200px;
+    background-color: #dd2742;
+    background-size: cover; 
+    height: 203px;
+     width:100%;
+  }
+  @keyframes openanm {
+    0%{
+     margin-left: 30px;
+    }
+    25%{
+      margin-left: 25%;
+     }
+    50%{
+      margin-left: 50%;
+    }
+    75%{
+      margin-left: 75%;
+     }
+    100%{
+      margin-right: 30px;
+    }
+  }

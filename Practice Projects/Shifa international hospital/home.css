@@ -1,0 +1,282 @@
+body,*{
+    font-family: "Inconsolata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      margin: 0%;
+      padding: 0%;
+}
+.nav-first-div{
+    height: 45px;
+    background-color: white;
+}
+.nav-social-links{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+.nav-social-link{
+    font-size: 25px;
+    margin: 8px;
+    margin-right: 20px;
+}
+.nav-second-div{
+    width: 100%;
+    color: black;
+    height: 45px;
+    background-color: rgb(42, 150, 238);
+    
+    
+}
+
+.nav-second-div .nav-link{
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: 30px;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+.nav-second-div .nav-link:hover{
+    background-color: rgb(34, 129, 207);
+}
+.shifa-logo{
+    position: absolute;
+    width: 250PX;
+    left: 70px;
+    top: 0%;
+    z-index: 1;
+}
+#carouselExampleIndicators img{
+    height: 600px;
+    object-fit: cover;
+}
+.carouse-div{
+    height: 600px;
+}
+#carouselExampleIndicators .carousel-control-next{
+    background-color: transparent;
+    border: none;
+}
+#carouselExampleIndicators .carousel-control-prev{
+    background-color: transparent;
+    border: none;
+}
+.quick-links{
+    background-color: rgb(241, 51, 51);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.quick-link{
+    margin: 89px;
+   font-size: 22px;
+   text-align: center;
+   color: white;
+   font-weight:bolder;
+   cursor: pointer;
+   padding: 10px;
+   transition: ease-in-out 0.5s;
+}
+.quick-link:hover{
+    background-color:rgb(214, 47, 47) ;
+}
+.quick-link-bar{
+    color: white;
+    font-weight:400 ;
+    font-size: 60px;
+}
+.second-banner{
+    height: 600px;
+    background: linear-gradient(rgba(255, 255, 255, 0.027),rgba(0, 0, 0, 0.301));
+}
+.second-banner-pic{
+    margin: 110px;
+    height: 600px;
+    background-image:url("hospital\ bg.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.second-banner-pic::before{
+    background: linear-gradient(rgba(255, 255, 255, 0.027),rgba(0, 0, 0, 0.164));
+}
+.second-banner-pic .second-banner-para{
+    text-align:justify ;
+}
+.second-banner-pic .discover-btn{
+    margin-top: 30px;
+    padding: 12px;
+    width: 130px;
+    border-radius:30px;
+    background-color: rgb(243, 208, 9);
+}
+.service-icon-col{
+    cursor: pointer;
+    
+}
+.chose-shifa{
+    background-image: url("chose-shifa\ background.jpg");
+    
+}
+.chose-shifa-main{
+   margin-top: 200px;
+ 
+}
+.chose-shifa-bar{
+    width: 280px;
+}
+.fa-circle-check{
+    font-size: 22px;
+    color: rgb(142, 221, 23);
+}
+.chose-shifa-link{
+    font-size: 19px;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+.chose-shifa-link:hover{
+    border: .5px solid rgb(226, 218, 218);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.37);
+}
+.chose-shifa  .discover-btn{
+    margin-top: 30px;
+    padding: 12px;
+    width: 130px;
+    border-radius:30px;
+    background-color: rgb(243, 208, 9);
+}
+.news-row{
+    width: 1200px;
+}
+.news-row .news-card{
+    width: 350px;
+    border: none;
+   
+}
+.news-img{
+    height: 200px;
+}
+.news-title{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(41, 207, 152);
+    padding: 2px;
+}
+.gray-gradeint{
+    height: 20px;
+    background: linear-gradient(rgba(128, 128, 128, 0.274),rgba(255, 255, 255, 0));
+}
+.miracles .discover-btn{
+    margin-top: 30px;
+    padding: 12px;
+    width: 180px;
+    border-radius:30px;
+    background-color: rgb(243, 208, 9);
+}
+.miracles .miracles-row{
+    margin: 0 100px;
+   
+}
+.miracles-row .miracles-card{
+    width: 210px;
+    border: none;
+  
+}
+
+.miracles-title{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(41, 207, 152);
+    padding: 2px;
+}
+.miracles-card-para{
+    
+    width: 300px;
+}
+.miracles-card-heading{
+    width: 300px;
+    font-size: 25px;
+}
+.miracles .miracle-read-btn{
+    border: 1px solid rgba(128, 128, 128, 0.185);
+    font-size: 15px;
+    width: 100px;
+    padding: 5px;
+    transition: ease-in-out 0.4s;
+}
+.miracles .miracle-read-btn:hover{
+    background-color: gray;
+    color: white;
+}
+.footer-section-1{
+    
+    background-image: url("shifa\ footer\ bg.png");
+
+}
+.footer-section-1-heading{
+    color: white;
+    font-size: 30px;
+}
+.footer-section-1 .discover-btn{
+    margin-top: 40px;
+    padding: 12px;
+    font-size: 21px;
+    font-weight: 900;
+    width: 180px;
+    border-radius:30px;
+    background-color: rgb(243, 208, 9);
+}
+
+.footer-section-2{
+    background-color: rgb(56, 54, 54);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.footer-section-2-link{
+    margin: 10px;
+   font-size: 16px;
+   text-align: center;
+   color: white;
+   cursor: pointer;
+   padding: 10px;
+   transition: ease-in-out 0.5s;
+}
+.footer-section-2-link:hover{
+    color: rgb(197, 184, 184);
+}
+
+.footer-section-2-bar{
+    color: white;
+    font-weight:300 ;
+    font-size: 35px;
+}
+.jma-punji-bar{
+    position: relative;
+    top: 0%;
+    font-weight: 100;
+    font-size: 50px;
+}
+.footer-section-3{
+    background-color: rgb(29, 28, 28);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.footer-section-3-link{
+    margin: 10px;
+   font-size: 16px;
+   color: white;
+   padding: 10px;
+   transition: ease-in-out 0.5s;
+}

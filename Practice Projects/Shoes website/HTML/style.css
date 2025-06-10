@@ -1,0 +1,252 @@
+
+html,body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+*{
+    font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.banner_main{
+    
+    background-color:#9dfcd7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 740px;
+    z-index: -2;
+}
+.banner_main .navbar{
+    
+    position:fixed;
+    top: 0;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    color: black;
+    font-family: "Sarpanch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar .navbar-nav{
+    margin-left:200px;
+}
+.navbar .nav-content{
+    
+    text-align: center;
+}
+.navbar .nav-link{
+    color: black;
+    margin-left: 20px;
+}
+.navbar .nav-content .navbar-nav .nav-item{
+    font-size:20px ;
+    
+}
+.navbar-toggler-icon{
+    border: 2px solid black;
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+.banner_main{
+    position: relative;
+    top: 0;
+}
+.wlcm{
+    text-align: center;
+    font-size: 80px;
+    margin-top:180px;
+    
+}
+.banner_discription{
+    font-size: 33px;
+    font-weight:lighter;
+    width: 1000px;
+    text-align: justify;
+}
+.banner_main .discover-btn{
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    background-color:#ffffff;
+    
+    
+    border-radius: 30px;
+    border: none;
+    padding:17px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 150px;
+    transition: 1s ease-in-out;
+}
+.banner_main .discover-btn:hover{
+    background-color:#eff3f1;
+    border: none;
+    transform: scale(1.01);
+}
+.banner_main .discover-btn:focus{
+    border: 1px solid black;
+}
+.animated-circle{
+    width: 300px;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    animation-name: circle_rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes circle_rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+   100%{
+        transform: rotate(360deg);
+    }
+}
+
+.animated-circle2{
+    width: 300px;
+    position:absolute;
+    bottom:10px;
+    right:40px;
+    z-index: -1;
+    animation-name: circle_rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes circle_rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+   100%{
+        transform: rotate(360deg);
+    }
+}
+.service-row{
+    margin-top: 100px;
+}
+
+.service-icon{
+    font-size: 80px;
+}
+.service-heading{
+    font-size: 35px;
+    
+}
+.service-para{
+    font-size: 16px;
+    font-weight:100;
+    text-align: justify;
+}
+.shop-area-main{
+    background-color: rgb(236, 247, 247);
+    transition: ease 3s;
+    
+}
+.shop-heading{
+    margin-top: 100px;
+    font-size: 100px;
+}
+.col .card{
+    text-transform: uppercase;
+    background-color:#f3fffa ;
+}
+.shop-description{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.card-tittle{
+    font-weight: 100;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.card-price{
+    font-size: 20px;
+}
+.offer{
+    text-align: center;
+    background-color: #9dfcd7;
+    width: 100px;
+    font-size: 20px;
+   margin-top:30px ;
+}
+.card .card-buy-btn{
+    padding: 7px;
+    width: 100px;
+    margin: 15px;
+    background-color: #4be6aa;
+    border:3px solid #4be6aa;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+    
+}
+.card .card-cart-btn{
+    padding: 8px;
+    margin: 15px;
+    width: 100px;
+    background-color: #4be6aa;
+    border:3px solid #4be6aa;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+.card .card-buy-btn:hover{
+    background-color: white;
+    border:3px solid #4be6aa;
+}
+.card .card-cart-btn:hover{
+    background-color: white;
+    border:3px solid #4be6aa;
+}
+.extra-col{
+    background-color: rgb(236, 247, 247);
+    height: 100px;
+    
+}
+.footer-main{
+    background-color: rgb(32, 31, 31);
+        
+}
+.footer-row{
+    color: white;
+}
+.footer-logo{
+    font-size: 30px;
+    color: white;
+    font-family: "Sarpanch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.footer-heading{
+    text-transform: uppercase;
+}
+.footer-descrip{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(207, 197, 197);
+    
+}
+.fa-footer-about{
+    font-size: 25px;
+    color:rgb(207, 197, 197);
+}
+.fa-footer-brands{
+    font-size:50px;
+    color: #20ec9e;
+}
+.footer-copy-right{
+    font-size: 20px;
+
+}

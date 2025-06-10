@@ -1,0 +1,86 @@
+
+.contact-main{
+    background-image:url("background\ for\ contact\ head\ high\ brightness.png");
+    height: 600px;
+}
+.contact-navbar{
+    
+    position:fixed;
+    top: 0;
+    height: 70px;
+    background-color:rgba(247, 247, 248, 0);
+}
+.contact-banner-text{
+    font-size: 21px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-250%);
+   
+    
+}
+.cnt-head{
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-390%);
+}
+
+.cnt-info-col{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
+}
+.Contact-info-row{
+    margin-top: 10%;
+}
+
+.cntct-form-heading{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px aquamarine;
+}
+
+.contact-form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
+    margin-top: 20px;
+    text-align: justify;
+}
+.contact-form-label{
+    text-align: justify;
+    font-size: 20px;
+    text-shadow:3px 3px 3px aquamarine;
+    width: 150px;
+}
+.contact-form-input{
+    padding: 8px;
+    width: 450px;
+   margin-left: 100px;
+}
+.cntct-form-icon{
+    font-size: 20px;
+    
+}
+.contact-txtarea{
+    resize: none;
+}
+form .contact-form-submit{
+    border: 3px solid aquamarine;
+    background-color:aquamarine;
+    border-radius: 28px;
+    padding: 16px;
+    width: 170px;
+    font-size: 15px;
+    margin-left: 150px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+form .contact-form-submit:hover{
+    border: 3px solid aquamarine;
+    background-color: white;
+    
+}

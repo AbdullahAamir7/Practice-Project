@@ -1,0 +1,87 @@
+.contactmain{
+    background-image: url("new\ yellow\ contact\ BG.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 1080px;
+    margin-top: 0%;
+    text-align: justify;
+  }
+  .forminput{
+    
+    margin-top: 50px;
+    border: 4px solid black;
+    border-radius: 15px;
+    width: 1155px;
+    height: 450px;
+  }
+
+  .cntH{
+    font-size: 70px;
+  }
+  .cntD{
+    font-size: 30px;
+  }
+  .farmrow{
+    margin-left: 400px;
+  }
+  .cntboxes{
+    width: 200px;
+    
+  }
+  .inputdiv{
+    padding: 30px;
+  }
+  
+  
+  .intbox{
+    padding:15px;
+    width: 250px;
+    display: inline;
+    border-radius: 13px;
+    background: #000;
+    border: 5px solid rgba(255, 255, 255, 0);
+    outline: 2px solid white;
+    color: white;
+    box-shadow: 4px 4px rgba(0, 255, 255, 0.808);
+    font-size: 20px;
+  }
+  .intbox:focus{
+    transform: scale(1.02);
+  }
+  .mailbox{
+    width: 510px;
+  }
+  .Phoneintbox{
+    width: 460px;
+  }
+  .msgbox{
+    resize: none;
+    width: 510px;
+    height:210px;
+  }
+  ::-webkit-input-placeholder{
+    color: aqua;
+  }
+  form .btnsub{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius:100px;
+    margin-left: 30px;
+    font-size: 25px;
+    background-color: #d3102d;
+    color: aqua;
+  }
+  .btnsub:hover{
+   background-color: transparent;
+   border:4px solid #d3102d;
+    color: rgb(0, 0, 0);
+  }
+  label{
+    font-size: 25px;
+  }
+  .fa-regular,.fa-at{
+    font-weight:bolder;
+    font-size: 28px;
+  }
+  
