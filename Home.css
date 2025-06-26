@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #012527;
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url(Bangers-Regular.ttf);
+}
+
+nav {
+    position: relative;
+    z-index: 9999;
+}
+
+
+nav .navbar-div {
+    margin-top: 0%;
+    height: 111px;
+    position: relative;
+}
+
+nav .nav-logo {
+    padding: 1px 75px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+/* nav .nav-logo::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skewX(-20deg);
+} */
+nav .logo {
+    width: 280px;
+    padding: 0%;
+    margin-left: 60px;
+}
+
+nav .main-navbar {
+    padding: 0%;
+}
+
+.upper-navbar {
+    background-color: #a7f6f8;
+    padding: 15px;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+/* .upper-navbar::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 36px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skewX(-20deg);
+} */
+
+.location-div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.nav-location-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+}
+
+.location {
+    font-weight: bold;
+    width: max-content;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+
+.lower-navbar {
+    background-color: #008f96;
+    padding: 15px;
+    position: relative;
+    z-index: 9999 !important;
+
+}
+
+.nav-link-div {
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0%;
+}
+
+.nav-link-icon {
+    font-size: x-large;
+    transition: ease-in 0.5s;
+}
+
+.fa-facebook {
+    color: #0a48f5;
+}
+
+.fa-youtube {
+    color: rgb(236, 8, 8);
+}
+
+.fa-instagram {
+    color: rgb(172, 69, 112);
+}
+
+.nav-link-icon:hover {
+    color: #012527;
+}
+
+
+
+.lower-nav-right-div .order-btn {
+    padding: 10px 18px;
+    background: linear-gradient(to right, #037980, #033c3f);
+    color: rgb(212, 212, 212);
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.order-btn::before {
+    content: '';
+    height: 50%;
+    width: 0%;
+    background: linear-gradient(to right, #025a5f, #ffffff);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    transition: ease-in-out 0.5s;
+}
+
+.order-btn:hover::before {
+    width: 100%;
+}
+
+.order-btn::after {
+    content: '';
+    height: 50%;
+    width: 0%;
+    background: linear-gradient(to right, #025a5f, #ffffff);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+    transition: ease-in-out 0.5s;
+}
+
+.order-btn:hover::after {
+    width: 100%;
+}
+
+.order-btn:hover {
+    color: rgb(10, 10, 10);
+    transition: ease-in-out 0.5s;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+    gap: 50px;
+}
+
+.lower-navbar .nav-link-left {
+    font-size: 21px;
+    font-weight: bold;
+    width: max-content;
+    padding: 0%;
+    position: relative;
+    transition: ease-in-out 0.2s;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.lower-navbar .nav-link-left:hover {
+    transform: scale(1.2);
+}
+
+.lower-navbar .nav-link-left::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    width: 0%;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #012527;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link-left:hover::before {
+    width: 100%;
+}
+
+.lower-navbar .nav-link-left::after {
+    content: ' +';
+    font-size: 26px;
+    transform: translateX(-50%);
+}
+
+.lower-nav-right-div {
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.lower-nav-icon {
+    font-size: larger;
+    font-weight: l;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown::marker {
+    content: none;
+}
+
+.dropdown .dropdown-toggle::after {
+    content: none;
+}
+
+.lower-nav-right-div .dropdown .dropdown-menu {
+    width: 300px;
+    padding: 9px;
+    margin: 0%;
+}
+
+@media (max-width: 1480px) {
+    nav .nav-logo {
+        padding: 1px;
+    }
+
+    .order-btn {
+        display: none;
+    }
+
+
+
+    .lower-navbar .nav-link-left {
+        font-size: 18px;
+        font-weight: bold;
+        width: max-content;
+        padding: 0%;
+        position: relative;
+        transition: ease-in-out 0.2s;
+        display: inline-block;
+        padding-bottom: 4px;
+    }
+
+    .navbar-nav {
+        margin-left: 20px;
+        gap: 20px;
+    }
+
+    .lower-navbar .nav-link-left::before {
+        content: '';
+        display: none;
+    }
+
+    .lower-nav-right-div {
+        margin-left: auto;
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .lower-nav-icon {
+        font-size: medium;
+    }
+
+    .banner-img {
+        width: 450px;
+    }
+
+    .carousel-item .carousel-caption .roll-img {
+        width: 550px;
+    }
+
+    .carousel-item .carousel-caption .samoosa-img {
+        width: 400px;
+    }
+
+    .carousel-caption .banner-wellcome {
+        font-size: 15px;
+    }
+
+    .carousel-caption .banner-heading {
+        font-size: 60px;
+        letter-spacing: 5px;
+    }
+
+    .carousel-item .carousel-caption .banner-detail {
+    position: absolute;
+    top: 30%;
+    margin-right: 200px;
+    text-align: justify;
+}
+
+
+}
+
+/* .lower-navbar::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skewX(-20deg);
+} */
+
+.banner-carousel {
+    height: 825px;
+    position: relative;
+    z-index: 1;
+}
+
+.d-block {
+    margin-top: 2px;
+    height: 825px;
+    object-fit: cover;
+}
+
+.banner-carousel .carousel-btn {
+    height: 10%;
+    width: 7%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption {
+    position: relative;
+    top: 0%;
+    width: 100%;
+}
+
+.carousel-caption .banner-img {
+    position: absolute;
+    top: 38%;
+    right: 24%;
+}
+
+.carousel-caption .roll-img {
+    width: 750px;
+    position: absolute;
+    top: 30%;
+    right: 24%;
+}
+
+.carousel-caption .samoosa-img {
+    width: 650px;
+    position: absolute;
+    top: 30%;
+    right: 24%;
+}
+
+.carousel-caption .banner-detail {
+    position: absolute;
+    top: 30%;
+    text-align: justify;
+}
+
+.banner-wellcome {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0%;
+    color: #ffffff;
+}
+
+.banner-heading {
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-family: Bangers;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.banner-detail .banner-btn {
+    padding: 15px 21px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #02bdc7, #025458);
+    color: rgb(212, 212, 212);
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
+
+.banner-btn::before {
+    content: '';
+    height: 50%;
+    width: 0%;
+    background: linear-gradient(to right, #025a5f, #ffffff);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    transition: ease-in-out 0.5s;
+}
+
+.banner-btn:hover::before {
+    width: 100%;
+}
+
+.banner-btn::after {
+    content: '';
+    height: 50%;
+    width: 0%;
+    background: linear-gradient(to right, #025a5f, #ffffff);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+    transition: ease-in-out 0.5s;
+}
+
+.banner-btn:hover::after {
+    width: 100%;
+}
+
+.banner-btn:hover {
+    color: rgb(10, 10, 10);
+    transform: scale(1.1);
+}
